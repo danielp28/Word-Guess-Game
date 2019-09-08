@@ -1,0 +1,46 @@
+html, body {
+    height:100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  html {
+    background:url("https://image.redbull.com/rbcom/010/2016-07-07/1331804852426_2/0100/0/1/tony-hawk-continua-a-volare.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+  }
+  
+  body {
+    background:rgba(255,255,255,0.5); /* applies a 50% transparent white background */
+  }
+
+
+
+
+.header{
+    text-align:center;
+}
+
+#main-text{
+    text-align:center;
+    font-family: 'Righteous', cursive;
+    font-weight:bold;
+}
+
+#stats{
+    text-align:center;
+    border:solid;
+}
+
+#wins,
+#win-counter,
+#guesses,
+#letters-guessed,
+#guesses-left,
+#remaining-guesses,
+#the-word,
+#random-word{
+    font-family: 'Poiret One', cursive;
+    font-weight:bold;
+}
