@@ -14,7 +14,7 @@ window.onload = function () {
 
     underScores();
 
-    document.onkeyup(function (event) {
+    document.onkeyup = function (event) {
 
         letterGuess.push(String.fromCharCode(event.keyCode));
 
@@ -40,12 +40,12 @@ window.onload = function () {
         } else {
             guessesRemaining--
             document.getElementById("letters-guessed").innerHTML = letterGuess;
-            DocumentTimeline.getElementById("remaining-guesses").innerHTML = guessesRemaining
+            document.getElementById("remaining-guesses").innerHTML = guessesRemaining
         }
     
         trueFalse = false;
         checkWins();
-    })
+    }
     
 
     function underScores() {
